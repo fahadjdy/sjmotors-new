@@ -25,6 +25,9 @@ body {
   background-color: var(--background-color);
 }
 
+.text-primary{
+    color: var(--primary-color);
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -443,6 +446,8 @@ body {
   }
 }
 
+
+
 /* Section Styles */
 .section-header {
   text-align: center;
@@ -509,6 +514,10 @@ body {
   }
 }
 
+
+.up-down-animation{
+    animation: upDown 3s ease-in-out infinite;
+}
 /* Base animation for all icons */
 .usp-icon {
   font-size: 2.5rem;
@@ -1087,7 +1096,7 @@ body {
 
 /* Company Overview Section */
 .company-overview {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .overview-grid {
@@ -1130,7 +1139,7 @@ body {
 .stat-number {
   font-size: 2.25rem;
   font-weight: bold;
-  color: #059669;
+  color: var(--primary-color);
   margin-bottom: 0.5rem;
 }
 
@@ -1286,4 +1295,44 @@ body {
   background: #059669;
   color: white;
   transform: translateY(-2px);
+}
+
+
+/* CTA Section */
+.cta {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark)); /* yellow gradient */
+  color: #fff;
+  text-align: center;
+}
+
+.cta-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.cta p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.cta .btn {
+  background: #fff;
+  padding: 14px 34px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.cta .btn:hover {
+  background: #ebf4ff;
+  color: #222;
 }
