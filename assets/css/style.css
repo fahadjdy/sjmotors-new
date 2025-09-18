@@ -388,9 +388,9 @@ body {
   right: 0;
   bottom: 0;
   background: linear-gradient(to right, #1e293b, #374151);
-  background-image: url("../img/heavy-duty-truck-on-construction-site.jpg");
+  background-image: url("../img/hero-bg.png");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
